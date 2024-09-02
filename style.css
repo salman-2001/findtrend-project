@@ -1,0 +1,545 @@
+@font-face {
+  font-family: "Gorditas bold";
+  src: url("./asset/font/Gorditas-Bold.woff2") format("woff2"),
+    url("./asset/font/Gorditas-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Gorditas regular";
+  src: url("./asset/font/Gorditas-Regular.woff2") format("woff2"),
+    url("./asset/font/Gorditas-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+img {
+  width: 100%;
+  height: 100%;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+/* section 1 */
+#wrapper {
+  max-width: 1080px;
+  margin: 0 auto;
+}
+#page1 {
+  background-image: url(asset/image/spot-light.jpg);
+}
+
+/* header */
+#header {
+  justify-content: space-around;
+  display: flex;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.list {
+  display: flex;
+  grid-gap: 40px;
+  align-items: center;
+}
+.white a {
+  color: rgb(191, 188, 188);
+}
+.white a:hover {
+  font-weight: bolder;
+  color: white;
+}
+.nav {
+  display: flex;
+  align-items: center;
+  grid-gap: 35px;
+}
+
+/* logo */
+.main-logo {
+  width: 100%;
+  height: 54px;
+}
+/* button */
+.button1 {
+  background-color: rgb(191, 188, 188);
+  border-radius: 20px 20px;
+  padding: 10px;
+  width: auto;
+  height: auto;
+}
+.button1:hover {
+  background-color: white;
+}
+.button1 a {
+  color: black;
+}
+#container {
+  align-content: center;
+  padding: 130px;
+}
+.container-a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  grid-gap: 37px;
+  /* padding-bottom: 54px; */
+}
+.container-a h1 {
+  color: white;
+  text-align: center;
+  font-size: xxx-large;
+  font-family: "Gorditas bold";
+}
+#page1 p {
+  text-align: center;
+  color: hsla(0, 3%, 69%, 0.762);
+  text-align: center;
+  font-family: "Gorditas regular";
+}
+#fire {
+  width: 23px;
+  height: 23px;
+}
+.button2 h3 {
+  color: black;
+  font-family: "Gorditas regular";
+  font-size: medium;
+}
+
+.button2 h3:hover {
+  color: white;
+}
+#page1 h6 h3 {
+  color: white;
+}
+.arrow {
+  width: 90px;
+  padding-bottom: 65px;
+}
+.third-line-spotlight {
+  display: flex;
+  grid-gap: 20px;
+  align-items: center;
+}
+.button2 {
+  background-color: greenyellow;
+  border-radius: 45px;
+  padding: 20px;
+}
+.button2 a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.position {
+  position: relative;
+  margin-bottom: 90px;
+}
+.position div {
+  width: 200px;
+}
+.twitter {
+  position: absolute;
+  z-index: 7;
+  top: 26px;
+  left: 43px;
+  transform: rotate(347deg);
+}
+.pintrest {
+  position: absolute;
+  top: 51px;
+  left: 221px;
+  z-index: 12;
+}
+.facebook {
+  position: absolute;
+  transform: rotate(357deg);
+  z-index: 5;
+  top: 8px;
+  left: 396px;
+}
+.elon {
+  position: absolute;
+  z-index: 10;
+  transform: rotate(5deg);
+  top: 48px;
+  left: 572px;
+}
+
+/* page 2 */
+#page2 {
+  background-color: greenyellow;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  grid-gap: 60px;
+  height: 70vh;
+}
+#page2 h3 {
+  color: black;
+  text-align: center;
+  font-size: xxx-large;
+  font-family: "Gorditas Bold";
+}
+#page2 p {
+  text-align: center;
+  color: hsl(0deg 3.76% 43.07% / 76.2%);
+  font-family: "Gorditas Regular";
+}
+.img-secondpage {
+  width: 380px;
+  background-color: white;
+  padding: 41px;
+  border-radius: 30px;
+}
+.middle-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  grid-gap: 35px;
+}
+.arrow2 {
+  width: 25px;
+  transform: rotateY(180deg);
+  margin-left: 67px;
+}
+.arrow3 {
+  width: 25px;
+}
+.left-arrow2 h5 {
+  transform: rotate(-20deg);
+}
+.right-arrow2 h5 {
+  transform: rotate(16deg);
+}
+.middle-section h5 {
+  font-family: "Gorditas Regular";
+  text-align: center;
+  font-weight: 500;
+  font-size: 10px;
+}
+
+/* page3 */
+#page3 h1 {
+  font-size: 40px;
+  font-weight: bold;
+  font-family: "Gorditas Bold";
+  text-align: justify;
+}
+.images-16 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: 100px;
+  grid-gap: 20px;
+}
+.images-16 div {
+  background-color: rgb(250, 238, 238);
+  padding: 22px;
+}
+.images-16 div:hover {
+  background-color: rgb(136 82 82);
+}
+#page3 {
+  padding: 95px;
+}
+#page3 h3 {
+  text-align: center;
+  font-size: 39px;
+  font-weight: bold;
+  font-family: "Gorditas Bold";
+  margin-bottom: 35px;
+}
+#page3 span {
+  color: grey;
+}
+.container2 {
+  margin-top: 100px;
+}
+
+.images-16 :nth-child(11) {
+  font-size: xxx-large;
+  font-weight: bolder;
+  font-family: monospace;
+}
+/* page 4 */
+#page4 {
+  background-color: rgb(250, 238, 238);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  grid-gap: 35px;
+  padding: 40px;
+}
+#page4 .company-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  grid-gap: 12px;
+}
+.company-logo div {
+  background-color: white;
+  width: 93px;
+  border-radius: 6px;
+}
+.company-logo div:hover {
+  background-color: rgb(111 218 68);
+}
+.company-logo img {
+  padding: 20px;
+}
+.company-logo div:nth-child(2) {
+  background-color: rgb(111 218 68);
+}
+.company-logo div:nth-child(2):hover {
+  background-color: white;
+}
+#page4 h3 {
+  text-align: center;
+  font-size: 47px;
+  font-family: "Gorditas Bold";
+}
+.linkdin-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.linkdin-page div {
+  width: 620px;
+}
+.linkdin-positioning {
+  background-image: url(./asset/image/linkedin-page1.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 285px;
+  position: relative;
+}
+.linkdin-text {
+  position: absolute;
+  background-color: white;
+  top: 84px;
+  font-size: 16px;
+  font-weight: 500;
+  left: 19px;
+  font-family: math;
+}
+.page4-button {
+  background-color: black;
+  border-radius: 25px;
+  padding: 12px;
+  width: 115px;
+  text-align: center;
+  font-size: medium;
+}
+.page4-button a {
+  color: white;
+  font-family: "Gorditas regular";
+}
+.page4-button:hover {
+  background-color: #a8ff35;
+  color: black;
+}
+.page4-button a:hover {
+  color: black;
+}
+/* page5 */
+
+#page5 {
+  background-color: black;
+  color: white;
+  padding: 75px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  grid-gap: 20px;
+}
+#page5 h3 {
+  text-align: center;
+  font-size: 47px;
+  font-family: "Gorditas Bold";
+}
+.c5 :nth-child(2) {
+  width: 55px;
+}
+.c5 :nth-child(3) {
+  color: rgb(124, 120, 120);
+}
+.c5 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  grid-gap: 12px;
+}
+.c5 h6 {
+  font-family: "Gorditas Regular";
+}
+
+.page5-arrow {
+  width: 45px;
+  margin-top: 8px;
+}
+.dollar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  grid-gap: 25px;
+}
+.dollar-8 {
+  background-color: white;
+  color: black;
+  padding: 30px;
+  border-radius: 8px;
+}
+.dollar-20 {
+  background-color: #a8ff35;
+  color: black;
+  padding: 30px;
+  border-radius: 8px;
+}
+.dollar-48 {
+  background-color: white;
+  color: black;
+  padding: 30px;
+  border-radius: 8px;
+}
+.tick-flex {
+  display: flex;
+}
+.tick img {
+  width: 20px;
+  height: 20px;
+}
+.dollar div h5 {
+  font-size: 35px;
+  font-family: "Gorditas Bold";
+}
+.dollar div h6 {
+  font-size: 15px;
+  font-weight: 500;
+  font-family: "Gorditas Regular";
+}
+.dollar div h4 {
+  font-size: 33px;
+  font-family: "Gorditas bold";
+}
+.dollar div span {
+  font-size: 15px;
+  font-weight: 500;
+  font-family: "Gorditas Regular";
+}
+.free-botton {
+  background-color: #a8ff35;
+  text-align: center;
+  border-radius: 50px;
+  width: 80%;
+  margin: 0 auto;
+  padding: 8px;
+  margin-top: 65px;
+  color: black;
+  font-family: "Gorditas Regular";
+}
+.free-botton1 {
+  background-color: black;
+  color: white;
+  text-align: center;
+  border-radius: 50px;
+  width: 80%;
+  margin: 0 auto;
+  padding: 8px;
+  margin-top: 65px;
+  font-family: "Gorditas Regular";
+}
+.border {
+  border-bottom: solid grey 1px;
+  height: 45px;
+}
+.mounth {
+  margin-top: 12px;
+}
+.tick-flex {
+  margin-top: 12px;
+}
+
+/* page6  */
+
+.c6 {
+  background-color: #a8ff35;
+  padding: 100px;
+}
+.c6 h2 {
+  text-align: center;
+  font-size: 47px;
+  font-family: "Gorditas bold";
+}
+.c6 span {
+  color: rgb(124, 120, 120);
+}
+.register-button {
+  background-color: black;
+  border-radius: 25px;
+  padding: 12px;
+  width: 115px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: medium;
+  margin-top: 42px;
+}
+.register-button a {
+  color: white;
+  font-family: "Gorditas Regular";
+}
+.register-button a:hover {
+  color: black;
+}
+.register-button:hover {
+  background-color: rgb(33, 232, 126);
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 25px;
+  padding-left: 62px;
+  padding-right: 62px;
+}
+.footer.footer:hoover {
+  background-color: rgb(250, 238, 238);
+}
+.footer ul {
+  display: flex;
+  align-items: center;
+  grid-gap: 30px;
+}
+.footer div {
+  width: 160px;
+}
+.footer li a {
+  font-size: 21px;
+  color: black;
+}
+.footer li a:hover {
+  font-weight: bolder;
+}
+.footer li:hover {
+  transform: translateY(-6px);
+}
